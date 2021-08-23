@@ -1,0 +1,42 @@
+body {
+
+    font-family : sans-serif;
+    background-color : #0d0f19;
+    background-size : 400% 400%;
+}
+p {
+    position: fixed;
+    left: 0;
+    bottom: 300;
+    width: 100%;
+    color:  whitesmoke;
+    text-align: center;
+    font-size: 200%;
+}
+.topnav {
+    background-color : #0d0f19;
+    overflow : hidden;
+    position : relative;
+    left: -50px;
+    box-sizing: 100px, 67px;
+    top: -20;
+
+
+}
+.topnav a {
+float : right;
+color : #f2f2f2;
+text-align : center;
+padding : 14px 16px;
+text-decoration : none;
+font-size : 17px;
+
+}
+.topnav a:hover {
+background-color : whitesmoke;
+color : black;
+}
+.topnav a.active {
+background-color : #303fe1;
+color : white;
+}
